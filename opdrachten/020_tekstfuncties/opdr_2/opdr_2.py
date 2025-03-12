@@ -1,9 +1,9 @@
 # Opdracht 1
-# Naam student:
-# Groep:
+# Naam student: Keano Hotzky
+# Groep:IT2B
 
 # Hier komt je code...
 
-my_list = ...
+my_string = "Tinus gaat op zijn tandem naar de hottentottententoonstelling"
 
-print()
+print("De letter \"t\" komt 10x voor in my_string")
