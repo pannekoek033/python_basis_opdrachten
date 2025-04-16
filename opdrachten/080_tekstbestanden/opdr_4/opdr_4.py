@@ -13,10 +13,10 @@ vragen = [
     "Wat neem je mee om te eten?"
 ]
 
-# Dictionary om de antwoorden in op te slaan
+
 antwoorden = {}
 
-# Loop door de vragen en verzamel antwoorden
+
 for i, vraag in enumerate(vragen, start=1):
     antwoord = input(f"{i}. {vraag}\n")
     if i == 1:
@@ -28,13 +28,13 @@ for i, vraag in enumerate(vragen, start=1):
     elif i == 4:
         antwoorden["eten"] = antwoord
 
-# Print afsluitende boodschap
+
 print("\nBedankt voor het invullen!")
 print("See you at the party.")
 
-# Sla de antwoorden op in een tekstbestand
+
 with open("feestgangers.txt", "a", encoding="utf-8") as bestand:
     bestand.write("----\n")
     for key, value in antwoorden.items():
         bestand.write(f"{key}: {value}\n")
-    bestand.write("\n")  # lege regel tussen deelnemers
+    bestand.write("\n")  
