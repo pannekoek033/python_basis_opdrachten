@@ -12,6 +12,6 @@ pizzas.sort()
 pizzas.append('yo-favorito')
 pizzas.remove('olivio')
 
-print(pizzas[:3])                      # eerste 3 pizza's
-print([pizzas[len(pizzas)//2]])       # middelste pizza
-print(pizzas[-3:])                    # laatste 3 pizza's
+print(pizzas[:3])                      
+print([pizzas[len(pizzas)//2]])       
+print(pizzas[-3:])                   
